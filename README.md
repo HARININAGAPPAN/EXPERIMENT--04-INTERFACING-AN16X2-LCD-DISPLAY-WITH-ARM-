@@ -201,7 +201,7 @@ int main(void)
 
 void lcd_display(){
 	Lcd_cursor(&lcd,0,1);
-	Lcd_string(&lcd,"Zafreen J\n");
+	Lcd_string(&lcd);
 	Lcd_cursor(&lcd,1,1);
 	Lcd_string(&lcd,"212223040252\n");
 }
